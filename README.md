@@ -8,7 +8,7 @@ Collection of logic riddles solved with Prolog.
 
 # Contents
 
-## `symbols.pro`
+## symbols.pro
 
 Simple symbol riddle with 9 unknown numbers and math formulas.
 
