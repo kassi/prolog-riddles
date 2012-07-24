@@ -8,6 +8,10 @@ Collection of logic riddles solved with Prolog.
 
 # Contents
 
+## `symbols.pro`
+
+Simple symbol riddle with 9 unknown numbers and math formulas.
+
 # Author
 
 Karsten Silkenbäumer
