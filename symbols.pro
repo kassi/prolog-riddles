@@ -1,13 +1,14 @@
-% @file:        symbols.pro
-% @author:      Karsten Silkenbäumer
-% @description: Solve a symbolic riddle of the following form (symbols replaced with letters)
+%!bp -g "['symbols.pro']"
+%
+% @author       Karsten Silkenbäumer
+% @description  Solve a symbolic riddle of the following form (symbols replaced with letters)
 %               VYVK  -  ZJZ  =  WVL
 %                  -       *       +
 %                 VX  *   ZL  =  XWJ
 %               ====     ===     ===
 %                 KI  +  ZZK  =  XYL
-% @system:      b-prolog
-% @run:         bp -g "['symbols.pro']"
+% @system       b-prolog
+% @run          bp -g "['symbols.pro']"
 
 :-
     write('------------------------------'),nl,
