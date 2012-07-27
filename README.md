@@ -8,9 +8,25 @@ Collection of logic riddles solved with Prolog.
 
 # Contents
 
-## symbols.pro
+See Wiki.
 
-Simple symbol riddle with 9 unknown numbers and math formulas.
+# Run
+
+I use to write the command line into a she-bang like line, even if the file is not executable.
+You can run it with
+
+    run=`head -1 $filename`; bash -c "${run##%\!}"
+
+so creating a shell function like
+
+    function prolog {
+        local run=$(head -1 "$1")
+        bash -c "${run##%\!}"
+    }
+
+might help with simply executing
+
+    prolog filename.pro
 
 # Author
 
