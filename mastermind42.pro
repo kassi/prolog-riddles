@@ -46,11 +46,11 @@
     write('execution time: '),write(T),write(' milliseconds'),nl.
 
 run:-
-    vars(Vars,Gebiete,Spez),
+    vars(Vars,Spez),
     labeling(Vars),
     display_board(Vars,Spez).
 
-vars(Board,Geb,Spez):-
+vars(Board,Spez):-
     Board = [
 		A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,
 		A2,B2,C2,D2,E2,F2,G2,H2,I2,J2,
@@ -248,4 +248,4 @@ display_board([A1,B1,C1,D1,E1,F1,G1,H1,I1,J1,
     write([A0,B0,C0,D0,E0,F0,G0,H0,I0,J0]),nl,
     nl,
 	Sum is sum(Spez),
-    write('Summe der speziellen Felder: '),write(Sum),nl.
+    write('Summe der belegten speziellen Felder: '),write(Sum),nl.
