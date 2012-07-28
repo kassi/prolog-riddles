@@ -2,8 +2,8 @@
 %
 % @author       Karsten Silkenbäumer
 % @description  Solve a Sudoku like riddle
-%               The riddle is given by solving MasterMind 4.
-%               This is riddle no. 2.
+%               The riddle is given by Master Mind riddle 4 for Senior Final (GC1Q9H4).
+%               The riddle:
 %               - and | define fields
 %               = and ‖ define regions
 %               place caches into the fields, so that

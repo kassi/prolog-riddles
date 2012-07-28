@@ -2,8 +2,7 @@
 %
 % @author       Karsten Silkenbäumer
 % @description  Solve a Sudoku/Kakuro mixture like riddle
-%               The riddle is given by solving MasterMind 3.
-%               This is riddle no. 2.
+%               The riddle is given by Master Mind riddle 3 for Senior Final (GC1Q9H4).
 % @system       b-prolog
 
 :-
